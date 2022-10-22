@@ -17,7 +17,11 @@ const fireWorks = ({ x, y }) => {
 
 const setup = () => {
   particles = [];
+
   resizeCanvas(canvas);
+
+  c.fillStyle = "#222";
+  c.fillRect(0, 0, innerWidth, innerHeight);
 };
 
 const animate = () => {
