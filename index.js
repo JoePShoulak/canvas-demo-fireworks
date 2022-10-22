@@ -37,7 +37,7 @@ addEventListener("click", (event) => {
   fireWorks(event);
 });
 
-addEventListener("resize", (event) => {
+addEventListener("resize", () => {
   resizeCanvas(canvas);
 });
 
